@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Haven - Deals</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span class="tech">Tech</span> Haven</h1>
+                <p>Your Gateway to Cutting-Edge Technology</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li class="active"><a href="deals.html">Deals</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+            <div class="cart-search">
+                <a href="#"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a>
+                <div class="search-box">
+                    <input type="text" placeholder="Search products...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Special Deals</h1>
+                <p>Limited-time offers on premium tech products</p>
+            </div>
+        </section>
+
+        <section class="deals-section">
+            <div class="container">
+                <div class="deal-banner">
+                    <div class="deal-content">
+                        <h2>Flash Sale</h2>
+                        <h3>Ends in <span id="countdown">23:59:59</span></h3>
+                        <p>Massive discounts on select items for the next 24 hours only!</p>
+                        <a href="#featured-deals" class="btn">Shop Now</a>
+                    </div>
+                </div>
+
+                <div id="featured-deals" class="featured-deals">
+                    <h2>Featured Deals</h2>
+                    <div class="products-grid">
+                        <div class="product-card deal-item">
+                            <div class="deal-badge">50% OFF</div>
+                            <img src="images/galaxy-watch-7.jpg" alt="Smart Watch Pro">
+                            <h3>Smart Watch Pro</h3>
+                            <p class="original-price">P5,600.00</p>
+                            <p class="price">P2,800.00</p>
+                            <p class="description">Health tracking, GPS, LTE connectivity</p>
+                            <button class="btn add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="product-card deal-item">
+                            <div class="deal-badge">30% OFF</div>
+                            <img src="images/apple-pods.jpg" alt="Wireless Earbuds">
+                            <h3>Wireless Earbuds</h3>
+                            <p class="original-price">P2,600.00</p>
+                            <p class="price">P1,820.00</p>
+                            <p class="description">Active noise cancellation, 30hr battery</p>
+                            <button class="btn add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="product-card deal-item">
+                            <div class="deal-badge">25% OFF</div>
+                            <img src="images/ipad-pro.jpg" alt="Tablet Pro">
+                            <h3>Tablet Pro</h3>
+                            <p class="original-price">P12,000.00</p>
+                            <p class="price">P9,000.00</p>
+                            <p class="description">12.9" Retina display, Apple M1 chip</p>
+                            <button class="btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weekly-deals">
+                    <h2>Weekly Deals</h2>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="deal-badge">15% OFF</div>
+                            <img src="images/ssd.jpg" alt="External SSD">
+                            <h3>External SSD 1TB</h3>
+                            <p class="original-price">P2,100.00</p>
+                            <p class="price">P1,785.00</p>
+                            <p class="description">1050MB/s read, 1000MB/s write</p>
+                            <button class="btn add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <div class="deal-badge">20% OFF</div>
+                            <img src="images/keyboard.jpg" alt="Mechanical Keyboard">
+                            <h3>Mechanical Keyboard</h3>
+                            <p class="original-price">P1,800.00</p>
+                            <p class="price">P1,440.00</p>
+                            <p class="description">RGB backlit, Cherry MX switches</p>
+                            <button class="btn add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <div class="deal-badge">10% OFF</div>
+                            <img src="images/portable-monitor.jpg" alt="Portable Monitor">
+                            <h3>Portable Monitor</h3>
+                            <p class="original-price">P3,500.00</p>
+                            <p class="price">P3,150.00</p>
+                            <p class="description">15.6" 1080p USB-C display</p>
+                            <button class="btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bundle-deals">
+                    <h2>Bundle Deals</h2>
+                    <div class="bundle-card">
+                        <div class="bundle-images">
+                            <img src="images/pixel-7-pro.jpg" alt="Phone">
+                            <span class="plus">+</span>
+                            <img src="images/beats.jpg" alt="Earbuds">
+                            <span class="plus">+</span>
+                            <img src="images/fast-charger.jpg" alt="Charger">
+                        </div>
+                        <div class="bundle-details">
+                            <h3>Mobile Essentials Bundle</h3>
+                            <p class="original-price">P13,000.00</p>
+                            <p class="price">P11,500.00</p>
+                            <p class="saving">Save P1,500.00</p>
+                            <p class="description">Get our premium smartphone with wireless earbuds and fast charger</p>
+                            <button class="btn add-to-cart">Add Bundle to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h2>Never Miss a Deal</h2>
+                <p>Subscribe to get exclusive offers before everyone else</p>
+                <form id="deals-newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tech Haven</h3>
+                    <p>Providing cutting-edge technology solutions since 2010. Your trusted partner in the digital world.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Commerce Park, Plot 23, Gaborone</p>
+                    <p><i class="fas fa-phone"></i> (+267) 310-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@techhaven.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tech Haven. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
